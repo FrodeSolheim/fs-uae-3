@@ -1,0 +1,6 @@
+#!/bin/sh
+set -e
+
+cp PACKAGE.FS ..
+cp fsbuild/bundle.sh ../fsbuild/bundle.sh
+cp dist/macos/Info.plist.in ../dist/macos/Info.plist.in
