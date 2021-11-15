@@ -13,6 +13,9 @@ mv FS-UAE FS-UAE-3
 mv \
 	FS-UAE-3/$SYSTEM_OS/$SYSTEM_ARCH/fs-uae \
 	FS-UAE-3/$SYSTEM_OS/$SYSTEM_ARCH/fs-uae-3
+mv \
+	FS-UAE-3/$SYSTEM_OS/$SYSTEM_ARCH/fs-uae-device-helper \
+	FS-UAE-3/$SYSTEM_OS/$SYSTEM_ARCH/fs-uae-device-helper-3
 mv FS-UAE-3 ../../fsbuild/_build
 cd ../..
 elif [ "`uname`" = "Darwin" ]; then
@@ -25,6 +28,9 @@ mv \
 mv \
 	FS-UAE-3/$SYSTEM_OS/$SYSTEM_ARCH/FS-UAE-3.app/Contents/MacOS/fs-uae \
 	FS-UAE-3/$SYSTEM_OS/$SYSTEM_ARCH/FS-UAE-3.app/Contents/MacOS/fs-uae-3
+mv \
+	FS-UAE-3/$SYSTEM_OS/$SYSTEM_ARCH/FS-UAE-3.app/Contents/MacOS/fs-uae-device-helper \
+	FS-UAE-3/$SYSTEM_OS/$SYSTEM_ARCH/FS-UAE-3.app/Contents/MacOS/fs-uae-device-helper-3
 mv FS-UAE-3 ../../fsbuild/_build
 cd ../..
 elif [ "`uname -o`" = "Msys" ]; then
@@ -34,6 +40,9 @@ mv FS-UAE FS-UAE-3
 mv \
 	FS-UAE-3/$SYSTEM_OS/$SYSTEM_ARCH/fs-uae.exe \
 	FS-UAE-3/$SYSTEM_OS/$SYSTEM_ARCH/fs-uae-3.exe
+mv \
+	FS-UAE-3/$SYSTEM_OS/$SYSTEM_ARCH/fs-uae-device-helper.exe \
+	FS-UAE-3/$SYSTEM_OS/$SYSTEM_ARCH/fs-uae-device-helper-3.exe
 mv FS-UAE-3 ../../fsbuild/_build
 cd ../..
 fi
