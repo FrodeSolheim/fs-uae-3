@@ -29,7 +29,7 @@ jobs:
         with:
           repository: FrodeSolheim/fs-uae
           fetch-depth: 0
-          ref: cd7b9d3c8850ffee28709e195c4a939c211f9fc4
+          ref: 596d803944f6498c305ac48d338f6252cbde7ecb
 
       - uses: actions/checkout@v2
         with:
